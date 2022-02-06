@@ -8,6 +8,18 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.text {
+    font-size: small;
+    color: #333;
+}
 
 /******************************
 * Begin of navigation bar style
@@ -24,7 +36,6 @@ a {
 }
 
 .menu-list {
-    list-style-type: none;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -63,6 +74,7 @@ a {
 
 .container-content {
     background-image: url('img/background.png');
+    padding-bottom: 3em;
 }
 
 /*text with rainbow background image*/
@@ -88,6 +100,8 @@ a {
     margin: auto;
     background-color: #FFF;
     padding: 20px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 7px #333;
 }
 
 .section-title {
@@ -95,15 +109,6 @@ a {
     color: #EB43A3;
     font-size: large;
     padding: 15px 0;
-}
-
-.section-text {
-    margin-bottom: 20px;
-}
-
-.text {
-    font-size: small;
-    color: #333;
 }
 
 /*Card*/
@@ -139,6 +144,45 @@ a {
     font-size: small;
 }
 
+/*Map and contact container*/
+.map-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+}
+
+/*Contact and newsletter style*/
+.contact-list {
+    padding-bottom: 20px;
+}
+
+.contact-item {
+    padding: 2px 0px;
+}
+
+#email {
+    margin: 10px 0px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+#email:hover, #email:focus-visible {
+    border: 1px solid #EB43A3;
+    outline-style: none;
+}
+
+.newsletter-form-container .btn {
+    background-color: #EB43A3;
+    color: #FFF;
+    border-color: transparent;
+    border-radius: 4px;
+    padding: .25em 1.25em;
+}
+
+.newsletter-form-container .btn:hover{
+    opacity: .9;
+}
 
 /******************************
 * End of the body content style
@@ -149,4 +193,5 @@ footer {
     background-color: #C55394;
     color: #FFF;
     padding: 15px 10px;
+    font-size: small;
 }
