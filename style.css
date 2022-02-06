@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/******************************
+* Begin of navigation bar style
+*******************************/
+.navbar {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    background-color: #C55394;
+}
+
+.navbar a {
+    color: #FFF;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: large;
+    text-align: center;
+}
+
+.menu-item {
+    background-color: #C55394;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.menu-item:hover, .active {
+    background-color: #EB43A3;
+}
+
+.title {
+    font-family: 'Courgette', cursive;
+}
+/*****************************
+* End of navigation bar style
+******************************/
+
+
+/*********************************
+* Begin of the body content style
+**********************************/
+
+.container-content {
+    background-image: url('img/background.png');
+}
+
+/*text with rainbow background image*/
+.slogan {
+    text-align: center;
+}
+
+.slogan-text {
+    display: inline-block;
+    padding: 60px 100px 20px; 
+    background-position: left top 16px;
+    background-image: url('img/rainbow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #C55394;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+/*main content*/
+.main-content {
+    width: 80%;
+    margin: auto;
+    background-color: #FFF;
+    padding: 20px 10px;
+}
+
+.section-title {
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+    font-size: large;
+    padding: 15px 0;
+}
+
+.section-text {
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: small;
+    color: #333;
+}
+
+/*Card*/
+.card-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    margin: 2px;
+}
+
+.card-img {
+    /*This property fit the width of the image to the container*/
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.7;
+    font-size: small;
+}
+
+
+/******************************
+* End of the body content style
+*******************************/
+
+footer {
+    text-align: right;
+    background-color: #C55394;
+    color: #FFF;
+    padding: 15px 10px;
+}
