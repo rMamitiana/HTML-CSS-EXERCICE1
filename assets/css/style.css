@@ -73,7 +73,7 @@ ul {
 **********************************/
 
 .container-content {
-    background-image: url('img/background.png');
+    background-image: url('/assets/img/background.png');
     padding-bottom: 3em;
 }
 
@@ -86,7 +86,7 @@ ul {
     display: inline-block;
     padding: 60px 100px 20px; 
     background-position: left top 16px;
-    background-image: url('img/rainbow.png');
+    background-image: url('/assets/img/rainbow.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: #C55394;
