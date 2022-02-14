@@ -1,0 +1,2 @@
+for the font family courgette: https://fonts.google.com/specimen/Courgette?query=courgette
+to validate the html code with w3: https://validator.w3.org/
